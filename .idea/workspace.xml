@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="972a8a80-6d94-4294-92bb-c13b0eaad09c" name="变更" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/adapter/ConsumingRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/adapter/ConsumingRestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/QuickLook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/QuickLook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659991981555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1660525598638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660525598638</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
