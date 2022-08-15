@@ -1,10 +1,14 @@
-package org.endless.eve.entity;
+package org.endless.eve.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+import org.springframework.stereotype.Component;
 
+@Component
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
+@ToString
 public class Order {
     private String order_id;
     private String region;

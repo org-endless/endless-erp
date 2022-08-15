@@ -1,12 +1,16 @@
-package org.endless.eve.entity;
+package org.endless.eve.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
+@Component
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
+@ToString
 public class QuickLook {
     private String item;
     private String item_name;
