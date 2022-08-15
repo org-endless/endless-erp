@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="972a8a80-6d94-4294-92bb-c13b0eaad09c" name="变更" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/adapter/ConsumingRestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/QuickLook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org.endless.eve.adapter/GetRemoteData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org.endless.eve.adapter/market.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/adapter/ConsumingRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/adapter/ConsumingRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/QuickLook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/eve/entity/QuickLook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +26,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />

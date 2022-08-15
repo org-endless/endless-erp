@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-package main.java.org.endless.eve.adapter;
-
-import ch.qos.logback.classic.Logger;
-import main.java.org.endless.eve.entity.Market;
-=======
 package org.endless.eve.adapter;
 
 import ch.qos.logback.classic.Logger;
 import org.endless.eve.entity.Market;
->>>>>>> 2b4ba74 (commit!)
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
