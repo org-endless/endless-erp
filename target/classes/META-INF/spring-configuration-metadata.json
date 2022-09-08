@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "price",
+      "type": "org.endless.erp.pojo.Price",
+      "sourceType": "org.endless.erp.pojo.Price"
+    }
+  ],
+  "properties": [
+    {
+      "name": "price.max-price",
+      "type": "java.lang.String",
+      "sourceType": "org.endless.erp.pojo.Price"
+    },
+    {
+      "name": "price.min-price",
+      "type": "java.lang.String",
+      "sourceType": "org.endless.erp.pojo.Price"
+    },
+    {
+      "name": "price.volume",
+      "type": "java.lang.String",
+      "sourceType": "org.endless.erp.pojo.Price"
+    }
+  ],
+  "hints": []
+}
