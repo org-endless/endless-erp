@@ -1,88 +1,100 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-<meta name="description" content="POS - Bootstrap Admin Template">
-<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, invoice, html5, responsive, Projects">
-<meta name="author" content="Dreamguys - Bootstrap Admin Template">
-<meta name="robots" content="noindex, nofollow">
-<title>Login - Pos admin template</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="org.endless.erp" name="description">
+    <meta content="erp, estimates, bootstrap, business, corporate, creative, invoice, html5, responsive, Projects"
+          name="keywords">
+    <meta content="org.endless" name="author">
+    <meta content="noindex, nofollow" name="robots">
+    <title>Login - ERP admin </title>
 
-<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="shortcut icon" th:href="@{/img/favicon.png}" type="image/x-icon">
 
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
 
-<link rel="stylesheet" href="/plugins/fontawesome/css/fontawesome.min.css">
-<link rel="stylesheet" href="/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/plugins/fontawesome/css/fontawesome.min.css}">
+    <link rel="stylesheet" th:href="@{/plugins/fontawesome/css/all.min.css}">
 
-<link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body class="account-page">
 
 <div class="main-wrapper">
-<div class="account-content">
-<div class="login-wrapper">
-<div class="login-content">
-<div class="login-userset">
-<div class="login-logo">
-<img src="/img/logo.png" alt="img">
-</div>
-<div class="login-userheading">
-<h3>Sign In</h3>
-<h4>Please login to your account</h4>
-</div>
-<div class="form-login">
-<label>Email</label>
-<div class="form-addons">
-<input type="text" placeholder="Enter your email address">
-<img src="/img/icons/mail.svg" alt="img">
-</div>
-</div>
-<div class="form-login">
-<label>Password</label>
-<div class="pass-group">
-<input type="password" class="pass-input" placeholder="Enter your password">
-<span class="fas toggle-password fa-eye-slash"></span>
-</div>
-</div>
-<div class="form-login">
-<div class="alreadyuser">
-<h4><a href="forgetpassword.html" class="hover-a">Forgot Password?</a></h4>
-</div>
-</div>
-<div class="form-login">
-<a class="btn btn-login" href="index.html">Sign In</a>
-</div>
-<div class="signinform text-center">
-<h4>Don’t have an account? <a href="signup.html" class="hover-a">Sign Up</a></h4>
-</div>
-<div class="form-setlogin">
-<h4>Or sign up with</h4>
-</div>
-<div class="form-sociallink">
-<ul>
-<li>
-<a href="javascript:void(0);">
-<img src="/img/icons/google.png" class="me-2" alt="google">
-Sign Up using Google
-</a>
-</li>
-<li>
-<a href="javascript:void(0);">
-<img src="/img/icons/facebook.png" class="me-2" alt="google">
-Sign Up using Facebook
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="login-img">
-<img src="/img/login.jpg" alt="img">
-</div>
-</div>
-</div>
+    <div class="account-content">
+        <div class="login-wrapper">
+            <div class="login-content">
+                <form class="login-userset" th:action="@{/user/signin}">
+                    <div class="login-logo">
+                        <img alt="img" src="/img/logo.png">
+                    </div>
+                    <div class="login-userheading">
+                        <h3 th:text="#{signin.tip}">Sign In</h3>
+                    </div>
+                    <div class="form-login">
+                        <label class="form-addons">
+                            <input autofocus="" required="" th:placeholder="#{signin.username.tip}" type="text">
+                        </label>
+                    </div>
+                    <div class="form-login">
+                        <label class="pass-group">
+                            <input class="pass-input" required="" th:placeholder="#{signin.password.tip}"
+                                   type="password">
+                            <span class="fas toggle-password fa-eye-slash"></span>
+                        </label>
+                    </div>
+                    <div class="form-login">
+                        <div class="alreadyuser">
+                            <h4>
+                                <a class="hover-a" th:href="@{forgetpassword.html}" th:text="#{signin.forgetpassword}">Forgot Password?</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="form-login">
+                        <button class="btn btn-login btn-primary btn-block" type="submit">[[#{signin.tip}]]</button>
+                    </div>
+
+                    <div class="signinform text-center">
+                        <h4>
+                            <a th:text="#{signin.signup.tip}">Don’t have an account?</a>
+                            <a class="hover-a" th:href="@{signup.html}" th:text="#{signin.signup}">Sign Up</a>
+                        </h4>
+                    </div>
+                    <div class="text-center">
+                        <a class="hover-a" th:href="@{/signin(lang='zh_CN')}">中文</a>
+                        <a class="hover-a" th:href="@{/signin(lang='en_US')}">English</a>
+                    </div>
+                    <div class="text-center">
+                        <p class="mt-5 mb-3 text-muted">@ 2022- </p>
+                    </div>
+                    <!--    其他登录方式-->
+                    <!--<div class="form-setlogin">-->
+                    <!--<h4>Or sign up with</h4>-->
+                    <!--</div>-->
+                    <!--<div class="form-sociallink">-->
+                    <!--<ul>-->
+                    <!--<li>-->
+                    <!--<a href="javascript:void(0);">-->
+                    <!--<img src="/img/icons/google.png" class="me-2" alt="google">-->
+                    <!--Sign Up using Google-->
+                    <!--</a>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                    <!--<a href="javascript:void(0);">-->
+                    <!--<img src="/img/icons/facebook.png" class="me-2" alt="google">-->
+                    <!--Sign Up using Facebook-->
+                    <!--</a>-->
+                    <!--</li>-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                </form>
+            </div>
+            <div class="login-img">
+                <img alt="img" src="/img/login.jpg">
+            </div>
+        </div>
+    </div>
 </div>
 
 

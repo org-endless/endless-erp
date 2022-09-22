@@ -1,4 +1,4 @@
-#多环境配置
+#spring配置
 spring:
   profiles:
     active: dev
@@ -6,10 +6,18 @@ spring:
     format:
       date: ddMMyyyy
   thymeleaf:
+    #关闭模板引擎缓存
     cache: false
-    mode: HTML
+  messages:
+    basename: i18n.signin
+  #可以直接使用H5框架
+#    mode: HTML
+#server:
+#  servlet:
+#    context-path: /deng
 #可查看那些自动配置类生效
 debug: true
+#多环境配置
 ---
 #生产环境配置
 server:

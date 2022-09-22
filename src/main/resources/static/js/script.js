@@ -541,7 +541,7 @@ $(document).ready(function(){
 	var right_side_views = '<div class="right-side-views d-none">' +
 	'<ul class="sticky-sidebar siderbar-view">' +
 		'<li class="sidebar-icons">' +
-			'<a class="toggle tipinfo open-layout open-siderbar" href="javascript:void(0);" data-toggle="tooltip" data-placement="left" data-bs-original-title="Tooltip on left">' +
+			'<a class="toggle tipinfo open-layout open-siderbar" th:href="@{javascript:void(0);" data-toggle="tooltip" data-placement="left" data-bs-original-title="Tooltip on left">' +
 				'<div class="tooltip-five ">' +
 					'<img src="/img/icons/siderbar-icon2.svg" class="feather-five" alt="">' +
 					'<span class="tooltiptext">Check Layout</span>' +
@@ -558,13 +558,13 @@ $(document).ready(function(){
 				'<div class="row align-items-center">' +
 					'<div class="col-xl-6 col-sm-6 col-12">' +
 						'<div class="sidebar-logo">' +
-							'<a href="index.html" class="logo">' +
-								'<img src="/img/logo.png" alt="Logo" class="img-flex">' +
+							'<a th:href="@{index.html" class="logo">' +
+								'<img src="/img/logo.png}" alt="Logo" class="img-flex">' +
 							'</a>' +
 						'</div>' +
 					'</div>' +
 					'<div class="col-xl-6 col-sm-6 col-12">' +
-						'<a class="btn-closed" href="javascript:void(0);"><img class="img-fliud" src="/img/icons/sidebar-delete-icon.svg" alt="demo"></a>' +
+						'<a class="btn-closed" th:href="@{javascript:void(0);"><img class="img-fliud" src="/img/icons/sidebar-delete-icon.svg" alt="demo"></a>' +
 					'</div>' +
 				'</div>' +
 			'</div>' +
@@ -574,7 +574,7 @@ $(document).ready(function(){
 				'<h5 class="sidebar-title">Choose layout</h5>' +
 				'<div class="col-xl-12 col-sm-6 col-12">' +
 					'<div class="sidebar-image align-center">' +
-						'<img class="img-fliud" src="/img/demo-one.png" alt="demo">' +
+						'<img class="img-fliud" src="/img/demo-one.png}" alt="demo">' +
 					'</div>' +
 					'<div class="row">' +
 						'<div class="col-lg-6 layout">' +
