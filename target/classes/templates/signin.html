@@ -32,14 +32,15 @@
                     <div class="login-userheading">
                         <h3 th:text="#{signin.tip}">Sign In</h3>
                     </div>
+                    <p th:text="${msg}" style="color: red"></p>
                     <div class="form-login">
                         <label class="form-addons">
-                            <input autofocus="" required="" th:placeholder="#{signin.username.tip}" type="text">
+                            <input autofocus="" name="username" required="" th:placeholder="#{signin.username.tip}" type="text">
                         </label>
                     </div>
                     <div class="form-login">
                         <label class="pass-group">
-                            <input class="pass-input" required="" th:placeholder="#{signin.password.tip}"
+                            <input class="pass-input" name="password" required="" th:placeholder="#{signin.password.tip}"
                                    type="password">
                             <span class="fas toggle-password fa-eye-slash"></span>
                         </label>
