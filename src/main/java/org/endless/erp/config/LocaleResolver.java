@@ -1,13 +1,29 @@
 package org.endless.erp.config;
 
-import org.springframework.web.servlet.LocaleResolver;
 import org.thymeleaf.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Locale;
 
-public class ErpLocaleResolver implements LocaleResolver {
+/**
+*@ClassName LocaleResolver
+*@Description 国际化语言格式转化配置类
+*@Author EndlessError
+*@Date 2022/11/17 16:52
+*@Version 
+*/
+public class LocaleResolver implements org.springframework.web.servlet.LocaleResolver {
+    
+    /**
+    *@MethodName resolveLocale
+    *@Description 国际化语言格式参数去除地区参数，例如去除“en”
+    *@Param [request]
+    *@Retrun java.util.Locale
+    *@Author EndlessError
+    *@Date 2022/11/17 16:52
+    *@Version 
+    */
     @Override
     public Locale resolveLocale(HttpServletRequest request) {
         String language = request.getParameter("lang");

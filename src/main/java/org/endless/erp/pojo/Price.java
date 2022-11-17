@@ -15,13 +15,14 @@ import javax.validation.constraints.Pattern;
 @Getter
 @Setter
 @ToString
-//test @ConfigurationProperties
-@ConfigurationProperties(prefix = "price")
-//test PropertySource
+//从yaml获取参数默认值
+//@ConfigurationProperties(prefix = "price")
+//从配置文件获取参数默认值
 //@PropertySource(value = "classpath:test.conf")
 //data check
 @Validated
 public class Price {
+
     //@Value("${max_price}")
     @NotEmpty
     @Pattern(regexp = "^[0-9]+(.[0-9]{2})?$", message = "must be accurate to 0.01!")

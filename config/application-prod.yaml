@@ -1,10 +1,2 @@
 server:
   port:  8080
-
-# test @ConfigurationProperties
-price:
-  #松散绑定
-  max-price: 7.00
-  min_price: "8.00"
-  #test: true
-  volume: ${price.test:test}_${random.uuid}${random.int}10000

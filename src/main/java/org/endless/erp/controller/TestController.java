@@ -6,7 +6,13 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 
-//测试thymeleaf
+/**
+*@ClassName TestController
+*@Description 测试视图跳转控制器，主要测试thymeleaf
+*@Author EndlessError
+*@Date 2022/11/17 17:10
+*@Version
+*/
 @Controller
 @RequestMapping("/test")
 public class TestController {

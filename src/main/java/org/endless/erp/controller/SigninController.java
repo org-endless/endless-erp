@@ -5,6 +5,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.thymeleaf.util.StringUtils;
 
+/**
+*@ClassName SigninController
+*@Description 登录页面提交后跳转控制器
+*@Author EndlessError
+*@Date 2022/11/17 17:09
+*@Version
+*/
 @Controller
 @RequestMapping("/user/signin")
 public class SigninController {
