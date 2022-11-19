@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Market {
-    private Price all_price;
-    private Price buy_price;
-    private Price sell_price;
+    private Price all_Test_price;
+    private Price buy_Test_price;
+    private Price sell_Test_price;
 }

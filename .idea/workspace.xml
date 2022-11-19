@@ -5,33 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="972a8a80-6d94-4294-92bb-c13b0eaad09c" name="变更" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/constant.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/ConstantRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/ConstantResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/ConstantResourceReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/ObjectCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/PriceCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/ProxyClassInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Formula.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Name.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ConstantRegular.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ConstantResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ConstantResourceReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ObjectCalculation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/util/PriceCalculation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ProxyClassInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application-prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-prod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application-test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/ErpLocaleResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/LocaleResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/ErpSigninConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/SigninConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/TestMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/TestMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/SigninController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/SigninController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/TestHelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Market.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/AmtString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/config/ErpLocaleResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/config/ErpSigninConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/config/TestMvcConfig$testViewResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/config/TestMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/config/TestMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/SigninController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/SigninController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/endless/erp/ErpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/endless/erp/ErpApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/TestHelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Market.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Market.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Price.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/util/AmtString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/endless/erp/ErpApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/endless/erp/ErpApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +68,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../Repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar!/javax/validation/constraints/Pattern.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,6 +81,9 @@
         <option name="userSettingsFile" value="D:\EndlessError\Documents\Repository\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2D5VdtQ30RFNc9fhyBK1XifPcYk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -102,7 +113,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6abbe62dd45b0ef89061d74d31ea9b96&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;def6d90e829e50c63f98c387daecd138&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -134,7 +145,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ErpApplication">
+  <component name="RunManager" selected="JUnit.ErpApplicationTests.contextLoads (1)">
+    <configuration name="ErpApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="erp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.endless.erp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.endless.erp" />
+      <option name="MAIN_CLASS_NAME" value="org.endless.erp.ErpApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ErpApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="endless-erp" />
       <extension name="coverage">
@@ -176,6 +203,13 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="ErpApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="erp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.endless.erp.ErpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ErpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="endless-erp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.endless.erp.ErpApplication" />
@@ -191,6 +225,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ErpApplicationTests.contextLoads (1)" />
         <item itemvalue="Spring Boot.ErpApplication" />
         <item itemvalue="JUnit.ErpApplicationTests.contextLoads" />
         <item itemvalue="Maven.eve [clean]" />
@@ -246,7 +281,12 @@
       <workItem from="1667808902579" duration="661000" />
       <workItem from="1668671518603" duration="1603000" />
       <workItem from="1668673151998" duration="4140000" />
-      <workItem from="1668680827210" duration="6938000" />
+      <workItem from="1668680827210" duration="15445000" />
+      <workItem from="1668698696955" duration="693000" />
+      <workItem from="1668699423178" duration="317000" />
+      <workItem from="1668699822842" duration="2722000" />
+      <workItem from="1668747546831" duration="19249000" />
+      <workItem from="1668837413777" duration="2268000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1659991394124</created>
@@ -360,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664265996875</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit">
+      <created>1668689167772</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668689167773</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit">
+      <created>1668689202239</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668689202239</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,5 +438,9 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
