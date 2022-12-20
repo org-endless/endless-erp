@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="972a8a80-6d94-4294-92bb-c13b0eaad09c" name="变更" comment="commit" />
+    <list default="true" id="972a8a80-6d94-4294-92bb-c13b0eaad09c" name="变更" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/ForgetPasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/forgetpassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/forgetpassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/constant.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/constant.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/LocaleResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/config/LocaleResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/SigninController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/controller/SigninController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Formula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/pojo/Formula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/ConstantResourceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/endless/erp/util/ConstantResourceReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/ErpApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/config/LocaleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/config/SigninConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/config/TestMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/SigninController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Formula.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Market.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/Price.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/pojo/QuickLook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ConstantRegular.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ConstantResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ConstantResourceReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ObjectCalculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/util/PriceCalculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/endless/erp/util/ProxyClassInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/endless/erp/ErpApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +59,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,17 +76,14 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../Repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar!/javax/validation/constraints/Pattern.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\EndlessError\Documents\Repository" />
-        <option name="userSettingsFile" value="D:\EndlessError\Documents\Repository\conf\settings.xml" />
+        <option name="localRepository" value="D:\EndlessError\Documents\_Repository" />
+        <option name="userSettingsFile" value="D:\EndlessError\Documents\_Repository\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -71,7 +109,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/EndlessError/Documents/My Projects/endless-erp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/EndlessError/Documents/_My Documents/_Knowledge Graph&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,17 +117,18 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;def6d90e829e50c63f98c387daecd138&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;18189e1e4ca5acb42e296f84e27864d3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EndlessError\Documents\_My Projects\endless-erp\config" />
       <recent name="D:\EndlessError\Documents\My Projects\endless-erp\src\main\resources\static\img" />
       <recent name="D:\EndlessError\Documents\My Projects\endless-erp\src\main\resources\templates" />
       <recent name="D:\EndlessError\Documents\My Projects\endless-erp\src\main\resources" />
       <recent name="D:\EndlessError\Documents\My Projects\endless-erp\src\main\resources\static" />
-      <recent name="D:\EndlessError\Documents\My Projects\eve\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\EndlessError\Documents\My Projects\eve\src\main\resources\templates" />
@@ -112,7 +151,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ErpApplication (1)">
+  <component name="RunManager" selected="Spring Boot.ErpApplication">
     <configuration name="ErpApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="erp" />
       <extension name="coverage">
@@ -170,13 +209,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="ErpApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="erp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.endless.erp.ErpApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ErpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="endless-erp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.endless.erp.ErpApplication" />
@@ -192,8 +224,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ErpApplicationTests.contextLoads (1)" />
         <item itemvalue="Spring Boot.ErpApplication" />
+        <item itemvalue="JUnit.ErpApplicationTests.contextLoads (1)" />
         <item itemvalue="JUnit.ErpApplicationTests.contextLoads" />
         <item itemvalue="Maven.eve [clean]" />
       </list>
@@ -262,7 +294,17 @@
       <workItem from="1669274136221" duration="73000" />
       <workItem from="1669274506764" duration="809000" />
       <workItem from="1669875973770" duration="2024000" />
-      <workItem from="1670344790283" duration="981000" />
+      <workItem from="1670344790283" duration="1031000" />
+      <workItem from="1670348350522" duration="61000" />
+      <workItem from="1671267722307" duration="7027000" />
+      <workItem from="1671301026815" duration="2646000" />
+      <workItem from="1671350442764" duration="1584000" />
+      <workItem from="1671374703025" duration="3000" />
+      <workItem from="1671543217647" duration="3511000" />
+      <workItem from="1671558340877" duration="1125000" />
+      <workItem from="1671559480509" duration="469000" />
+      <workItem from="1671559964655" duration="707000" />
+      <workItem from="1671560681250" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1659991394124</created>
@@ -411,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670347031819</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="commit">
+      <created>1670347416629</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670347416629</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

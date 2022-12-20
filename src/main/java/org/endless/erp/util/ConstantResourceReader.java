@@ -1,7 +1,6 @@
 package org.endless.erp.util;
 
 import lombok.*;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
@@ -19,13 +18,13 @@ import org.springframework.stereotype.Component;
 public class ConstantResourceReader {
     public static String ID_REGULAR;
     public static String DATE_REGULAR;
-
-    @Value("${ID_REGULAR}")
-    public void setIdRegular(String idRegular) {
-        ID_REGULAR = idRegular;
-    }
-    @Value("${DATE_REGULAR}")
-    public void setDateRegular(String dateRegular) {
-        DATE_REGULAR = dateRegular;
-    }
+    //
+    // @Value("${ID_REGULAR}")
+    // public void setIdRegular(String idRegular) {
+    //     ID_REGULAR = idRegular;
+    // }
+    // @Value("${DATE_REGULAR}")
+    // public void setDateRegular(String dateRegular) {
+    //     DATE_REGULAR = dateRegular;
+    // }
 }

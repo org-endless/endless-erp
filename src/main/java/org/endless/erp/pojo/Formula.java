@@ -7,8 +7,6 @@ import org.endless.erp.util.ConstantRegular;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Pattern;
 
 
 /**

@@ -1,51 +1,48 @@
-#spring配置
+# spring boot 配置
 spring:
-  profiles:
-    #运行的环境配置
+  profiles: # 选择运行环境对应的配置文件
     active: dev
   mvc:
-    format:
-      #日期格式化
+    format: # 日期格式化
       date: ddMMyyyy
-  thymeleaf:
-    #关闭模板引擎缓存
+  thymeleaf: # 关闭模板引擎缓存
     cache: false
-  messages:
-    #国际化配置
+  messages: # 国际化配置
     basename: i18n.signin
-  #可以直接使用H5框架
-#    mode: HTML
+    # 直接使用H5框架
+    # mode: HTML
 
-#配置默认url入口，不建议使用
-#server:
-#  servlet:
-#    context-path: /deng
+# 配置默认url入口，不建议使用
+# server:
+#   servlet:
+#     context-path: /deng
 
-#可查看那些自动配置类生效
+# 可查看那些自动配置类生效
 debug: true
 
-##单yaml内多环境配置
-#---
-##生产环境配置
-#server:
-#  port:  8180
-#spring:
-#  config:
-#    activate:
-#      on-profile: prod1
-#---
-##开发环境配置
-#server:
-#  port:  8181
-#spring:
-#  config:
-#    activate:
-#      on-profile: dev1
-#---
-##测试环境配置
-#server:
-#  port:  8182
-#spring:
-#  config:
-#    activate:
-#      on-profile: test1
+
+# 单yaml内多环境配置
+# 生产环境配置
+---
+server:
+  port: 8180
+spring:
+  config:
+    activate:
+      on-profile: prod1
+# 开发环境配置
+---
+server:
+  port: 8181
+spring:
+  config:
+    activate:
+      on-profile: dev1
+# 测试环境配置
+---
+server:
+  port: 8182
+spring:
+  config:
+    activate:
+      on-profile: test1
